@@ -5,9 +5,16 @@ Für Slides und Code Beispiele, siehe [Lektion 6](../../../fhnw-syspr/blob/maste
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
 > *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
 
-### a) X, 30'
-* X:<pre>
-    $ cd ~</pre>
+### a) Threads, 30'
+* Schreiben Sie ein Programm *my_pthreads.c* welches einen Thread erzeugt, und mit *pthread_exit()* endet.
+* Geben Sie Thread ID, Argument und Resultat aus.
+* Wie würde man mehrere Argumente übergeben?
+
+### b) Self Join, 15'
+* Schreiben Sie ein Programm *my_self_join.c* welches seine eigene Thread ID liest und einen Join macht:<pre>
+pthread_join(pthread_self(), NULL);</pre>
+* Was, bzw. welcher Fehler passiert dabei auf Linux?
+
 
 ### Abgabe (optional)
 * Lokale Änderungen [committen und pushen](#git).
