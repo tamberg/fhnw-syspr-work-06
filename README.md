@@ -16,7 +16,7 @@ pthread_join(pthread_self(), NULL);</pre>
 * Was, bzw. welcher Fehler passiert dabei auf Linux?
 
 ### c) Producer/Consumer, 30'
-* Das Producer/Consumer Problem ist ein Klassiker der parallelen Programmierung - studieren Sie die Version (von Sun) mit zwei Zustandsvariablen:<pre>
+* Das Producer/Consumer Problem ist ein Klassiker der parallelen Programmierung - studieren Sie die Version (von [Sun](https://en.wikipedia.org/wiki/Sun_Microsystems)) mit zwei Zustandsvariablen:<pre>
 https://docs.oracle.com/cd/E19455-01/806-5257/sync-31</pre>
 * Und, falls Zeit bleibt, hier eine detaillierte Version:<pre>
 http://www.cs.fsu.edu/~baker/realtime/restricted/notes/prodcons.html
