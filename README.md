@@ -5,23 +5,20 @@ Für Slides und Code Beispiele, siehe [Lektion 6](../../../fhnw-syspr/blob/maste
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
 > *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
 
-### a) Threads, 30'
+### a) Threads, 20'
 * Schreiben Sie ein Programm *my_pthreads.c* welches einen Thread erzeugt, und mit *pthread_exit()* endet.
 * Geben Sie Thread ID, Argument und Resultat aus.
 * Wie würde man mehrere Argumente übergeben?
 
-### b) Self Join, 15'
-* Schreiben Sie ein Programm *my_self_join.c* welches seine eigene Thread ID liest und einen Join macht:<pre>
-pthread_join(pthread_self(), NULL);</pre>
-* Was, bzw. welcher Fehler passiert dabei auf Linux?
+### b) Mutex, 20'
+* Lösen Sie die _Aufgabe 2_ aus [Assessment II von 2018](http://www.tamberg.org/fhnw/2018/Syspr14Assessment2.pdf).
+* Implementieren Sie die fehlende _main()_ Funktion.
+* Committen Sie die Lösung in _my_prod_cons.c_
 
-### c) Producer/Consumer, 30'
-* Das Producer/Consumer Problem ist ein Klassiker der parallelen Programmierung - studieren Sie die Version (von [Sun](https://en.wikipedia.org/wiki/Sun_Microsystems)) mit zwei Zustandsvariablen:<pre>
-https://docs.oracle.com/cd/E19455-01/806-5257/sync-31</pre>
-* Und, falls Zeit bleibt, hier eine detaillierte Version:<pre>
-http://www.cs.fsu.edu/~baker/realtime/restricted/notes/prodcons.html
-</pre> mit einem zirkulären Buffer.
-
+### c) Producer/Consumer, 10'
+* Das Producer/Consumer Problem ist ein Klassiker.
+* Studieren Sie diese Version mit zirkulärem Buffer:<pre>
+http://www.cs.fsu.edu/~baker/realtime/restricted/notes/prodcons.html</pre>
 
 ### Abgabe (optional)
 * Lokale Änderungen [committen und pushen](#git).
