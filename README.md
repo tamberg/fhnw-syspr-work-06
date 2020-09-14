@@ -5,4 +5,4 @@ Für Slides und Code Beispiele, siehe [Lektion 6](../../../fhnw-syspr/blob/maste
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
 > *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
 
-Kein Inhalt im HS20.
+*HS20: Kein Inhalt.*
